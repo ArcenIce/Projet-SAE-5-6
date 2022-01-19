@@ -12,11 +12,17 @@ html {
 
 #header {
     /* barre de navigation */
-    background: rgb(255,255,255);
+    background: rgb(255,255,255)
+    display:inline-block;
    
     padding-bottom: 0px;
     
     width: 80vw;
+}
+#home::before {
+    content: url("./images/home--v4.png");
+    display: inline-block;
+    margin-right: 5px;
 }
 
 #header img {
