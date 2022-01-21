@@ -285,11 +285,11 @@ html {
     transform: scale(1.05, 1.05);
 }
 
-.formulaire {
+#formulaire {
     width: 80vw;
 }
 
-.formulaire h1 {
+#formulaire h1 {
     margin: auto;
     text-align: center;
     line-height: 150%;
@@ -300,7 +300,7 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.formulaire form {
+#formulaire form {
     margin: auto;
     text-align: center;
     line-height: 150%;
@@ -317,7 +317,7 @@ html {
     padding-left: 5%;
 }
 
-.formulaire form input {
+#formulaire form input {
     display: inline-block;
     line-height: 250%;
     width: 25vw;
@@ -328,31 +328,31 @@ html {
     text-align: center;
 }
 
-.formulaire ul {
+#formulaire ul {
     width: 105%;
     text-align: center;
     margin: auto;
 }
 
-.formulaire li {
+#formulaire li {
     width: 49%;
 }
 
-.formulaire form #gauche {
+#formulaire form #gauche {
     align-items: left;
     text-align: left;
     display: inline-block;
     line-height: 200%;
 }
 
-.formulaire form #droite {
+#formulaire form #droite {
     align-items: right;
     text-align: left;
     display: inline-block;
     line-height: 200%;
 }
 
-.formulaire form #conditions {
+#formulaire form #conditions {
     align-items: left;
     text-align: left;
     margin-top: 2%;
@@ -362,12 +362,12 @@ html {
     color: rgb(34, 34, 34);
 }
 
-.formulaire form a {
+#formulaire form a {
     text-decoration: none;
     color: rgb(0, 255, 167)
 }
 
-.formulaire form #confirmer {
+#formulaire form #confirmer {
     margin-top: 2%;
     margin-right: 11.1%;
     align-items: right;
@@ -390,7 +390,7 @@ html {
     transition: all .2s ease-in-out;
 }
 
-.formulaire form #confirmer:hover {
+#formulaire form #confirmer:hover {
     /* effet de grossissement quand on passe la souris sur le bouton rejoignez-nous */
     background: rgb(0, 255, 167);
     background: linear-gradient(0deg, rgba(0, 255, 167, 1) 0%, rgba(0, 255, 221, 1) 100%);
