@@ -105,6 +105,12 @@ h1 {
     transform: translateY(0%);
 }
 
+#home::before {
+    content: url("./images/home.png");
+    display: inline-block;
+    margin-right: 5px;
+}
+
 
 /* la bannière avec le texte au dessus */
 
